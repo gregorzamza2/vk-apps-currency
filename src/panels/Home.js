@@ -9,7 +9,6 @@ const Home = props => (
 		<Group title="User Data Fetched with VK Connect">
 			<ListItem
 				before={<Avatar src={props.fetchedUser.photo_200}/>}
-				description=
 			>
 				{`${props.fetchedUser.first_name} ${props.fetchedUser.last_name}`}
 			</ListItem>
